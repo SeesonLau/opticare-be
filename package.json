@@ -1,0 +1,21 @@
+{
+  "name": "opticare-be",
+  "version": "1.0.0",
+  "main": "database/index.js",
+  "scripts": {
+    "start": "node database/index.js",
+    "dev": "nodemon database/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "firebase-admin": "^13.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
